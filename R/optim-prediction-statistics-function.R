@@ -34,7 +34,7 @@ optim.prediction.statistics <- function(sim, df, P = 0.95, ylim = NULL, na.rm = 
   sim.stack$which <- reorder.for.trellis(sim.stack$which)
   df.pi <- data.frame(y.mean = tapply(sim.stack$y, sim.stack$which,
                                       mean, na.rm = na.rm), y.stdev = tapply(sim.stack$y, sim.stack$
-                                                                               which, stdev, na.rm = na.rm), y.low = tapply(sim.stack$y,
+                                                                               which, sd, na.rm = na.rm), y.low = tapply(sim.stack$y,
                                                                                                                             sim.stack$which, quantile, na.rm = na.rm, probs = (1 - P)/
                                                                                                                               2.), y.high = tapply(sim.stack$y, sim.stack$which, quantile,
                                                                                                                                                    na.rm = na.rm, probs = 1 - (1 - P)/2.))
