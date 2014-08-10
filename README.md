@@ -16,3 +16,13 @@ library(devtools)
 install_github("clanOptim","claus-e-andersen")
 
 library(clanOptim)
+
+
+(3) To get a list of functions in the library, just call:
+
+help(package=clanOptim)
+
+or
+
+library(help=clanOptim)
+
