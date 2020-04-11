@@ -7,7 +7,7 @@
 #' @return Prediction statistics based on the simulated data
 #' @param sim is the simulated data
 #' @param df is the dataframe with the data to which the model will be fitted
-#' @param P is the confidence intercal (0.95 means 95%) 
+#' @param P is the confidence intercal (0.95 means 95\%) 
 #' @param ylim is a vecor of two elements indicating the min and max of the output.
 #' @param na.rm controls if NA-values should be removed
 #' @param trace controls if the function should be verbose during execution.

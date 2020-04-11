@@ -11,7 +11,7 @@ See demo
 
 \item{df}{is the dataframe with the data to which the model will be fitted}
 
-\item{P}{is the confidence intercal (0.95 means 95%)}
+\item{P}{is the confidence intercal (0.95 means 95\%)}
 
 \item{ylim}{is a vecor of two elements indicating the min and max of the output.}
 
