@@ -12,8 +12,7 @@
 #' @param na.rm controls if NA-values should be removed
 #' @param trace controls if the function should be verbose during execution.
 #' @export optim.prediction.statistics
-optim.prediction.statistics <- function(sim, df, P = 0.95, ylim = NULL, na.rm = T, trace = F)
-{
+optim.prediction.statistics <- function(sim, df, P = 0.95, ylim = NULL, na.rm = T, trace = F){
   # Created: January 13, 2008
   # Revised: January 13, 2008
   # Revised: January 16, 2008
