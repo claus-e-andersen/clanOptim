@@ -41,7 +41,7 @@ optim.do.simulations <- function(fm, df, fit.func = optim.fit.func, model = NULL
     y.sim <- "Error"
   }
   else {
-    simbetas <- mvrnorm(N.sims, fm$par, cvar)
+    simbetas <- MASS::mvrnorm(N.sims, fm$par, cvar)
     y.sim <- NULL
     for(i in 1:N.sims) {
       p <- simbetas[i,  ]
